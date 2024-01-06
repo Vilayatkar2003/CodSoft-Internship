@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+#navbar {
+    background-color: orange;
+    height: 60px;
+}
+
+#name {
+    font-size: 30px;
+}
+
+a {
+    color: black;
+    font-size: 22px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+#content {
+    height: 70px;
+    width: 400px;
+    margin: 40px 30px 0px 80px;
+}
+
+#Image1 {
+    height: 400px;
+    width: 500px;
+    background-size: cover;
+    background-image: url("portfolio.jpeg");
+    position: absolute;
+    right: 40px;
+    top: 70px;
+}
+
+button { 
+    margin-top: 30px;
+    height: 45px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: orange;
+    color: black;
+    font-size: 15px;
+}
+
+button:hover {
+    border: 3px solid black;
+    background-color: blue;
+    color: white;
+}
+
+button i {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    margin: 10px;
+    position: absolute;
+    top: 210px;
+    left: 50px;
+}
+
+.social-icons a {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: black;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.social-icons a:hover {
+    border: 2px solid black;
+    background-color: black;
+    color: aqua;
+}
+
+.social-icons a i {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Experiences {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    height: 40px;
+    background-color: orange;
+
+}
+
+.Experiences p {
+    height: 30px;
+    width: 1007px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+}
+
+#One {
+    position: absolute;
+    top: 575px;
+    left: 270px;
+    font-size: 30px;
+}
+
+#footer {
+    position: absolute;
+    top: 650px;
+    left: 0px;
+    width: 1007px;
+    height: 150px;
+    background-color: orange;
+    color: black;
+}
+
+#footer{
+    text-align: center;
+}
+
+#Info {
+    font-size: 20px;
+    margin: 10px;
+}
+
